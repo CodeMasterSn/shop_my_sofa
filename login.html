@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/popup.css">
+    <!-- logo -->
+  <link rel="shortcut icon" href="./images/logo_shop_my_sofa.png" type="image/x-icon">
+</head>
+<body>
+    <!-- containt script php -->
+    <section>
+        <div class="popup">
+            <!-- <div class="close-btn">&times</div> -->
+            <!-- first form -->
+            <div class="wrapper">
+                <div class="title-text">
+                    <div class="title login">
+                        Connexion
+                    </div>
+                    <div class="title signup">
+                        Inscription
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="slide-controls">
+                        <input type="radio" name="slide" id="login" checked>
+                        <input type="radio" name="slide" id="signup">
+                        <label for="login" class="slide login">Se Connecter</label>
+                        <label for="signup" class="slide signup">S'inscrire</label>
+                        <div class="slider-tab"></div>
+                    </div>
+                    <div class="form-inner">
+                        <!-- start first form -->
+                        <form action="" method="post" class="login">
+                            <div class="field">
+                                <input type="text" placeholder="Votre adresse Email" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Votre mot de passe" required>
+                            </div>
+                            <div class="pass-link">
+                                <a href="#">Mot de passe oublié ?</a>
+                            </div>
+                            <div class="field btn">
+                                <div class="btn-layer"></div>
+                                <input type="submit" value="Se Connecter">
+                            </div>
+                            <div class="signup-link">
+                                Pas encore un membre? <a href="">S'inscrire Maintenant</a>
+                            </div>
+                        </form>
+
+                        <!-- second form -->
+                        <form action="#" class="signup">
+                            <div class="field">
+                                <input type="text" placeholder="Votre Adresse Email" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Votre mot de passe" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Confirmer votre mot de passe" required>
+                            </div>
+                            <div class="field btn">
+                                <div class="btn-layer"></div>
+                                <input type="submit" value="S'inscrire">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
